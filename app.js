@@ -21,8 +21,10 @@ var remove = function(){
 	if (last) {
        last.parentNode.removeChild(last);
        store();
-    }   
-}
+       if (listItems.length === 0){
+       	alert();
+       }
+    }
    
 
 var clearAll = function(){
