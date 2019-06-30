@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<meta charset="UTF-8">
+<title>To do list</title>
+<link href="main.css" rel="stylesheet" />
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+	<header>
+<h1>Agata's to-do list</h1>
+</header>
+	<main>
+	<div class="container">
+
+		<!-- list -->
+
+   		<input type="text" id="what" placeholder="What do I have to do?" onfocus="this.placeholder=''" onblur="this.placeholder='What do I have to do?'"/>
+
+	     <button type="button" id="add" onclick="add()">Add</button>  
+	     <button type="button" id="remove" onclick="remove()">Remove</button> 
+	     <button type="button" id="clearAll" onclick="clearAll()">Clear</button>
+	     
+	    <ol id="list">
+	    </ol>
+
+	</div> 
+
+	<!-- modal box -->
+
+	<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Everything is done! :) </p>
+  </div>
+
+</div>  
+	</main>
+<script src="app.js"></script>
+
+</body>
+</html>
