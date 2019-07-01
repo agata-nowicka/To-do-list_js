@@ -24,7 +24,10 @@ var remove = function(){
        if (listItems.length === 0){
        	alert();
        }
-    }
+    }   
+    
+    
+}
    
 
 var clearAll = function(){
