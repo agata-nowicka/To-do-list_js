@@ -1,13 +1,13 @@
 # To-do list
 
-Take a look at my front-end projects, get to know me better.
+To-do list is an application that allows you to make a list of tasks you don't want to forget. 
 
 [Website demo](https://agata-nowicka.github.io/To-do-list_js/)
-![Website screenshot](portfolio/img/todo.png)
+![Website screenshot](agata-nowicka/portfolio/img/todo.png)
  
 ## General info
 
-To-do list is an application that allows you to make a list of tasks to do. You can add tasks, remove the last one or clean a whole list. The application uses local storage so that you don't loose your list after closing a tab or your browser.
+You can add tasks, remove the last one or clean a whole list. The application uses local storage so that you don't loose your list after closing a tab or your browser.
 
 ## Technologies
 
