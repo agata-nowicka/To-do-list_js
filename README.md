@@ -3,7 +3,7 @@
 To-do list is an application that allows you to make a list of tasks you don't want to forget. 
 
 [Website demo](https://agata-nowicka.github.io/To-do-list_js/)
-![Website screenshot](agata-nowicka/portfolio/blob/master/img/todo.png)
+![Website screenshot](https://github.com/agata-nowicka/portfolio/blob/master/img/todo.png)
  
 ## General info
 
